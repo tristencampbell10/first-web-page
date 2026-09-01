@@ -1,9 +1,14 @@
 /*
  * Global Stylesheet for all HTML pages
- * Follows industry best practices for maintainability and scalability
+ * Best Practices:
+ * - Use CSS variables for consistent theming
+ * - Follow BEM (Block Element Modifier) naming conventions
+ * - Use rem units for scalable typography and spacing
+ * - Prioritize mobile-first design
+ * - Avoid !important unless absolutely necessary
  */
 
-/* ===== BASE STYLES ===== */
+/* CSS Variables for theming */
 :root {
     /* Color Palette */
     --color-primary: #3498db;
@@ -39,7 +44,9 @@
 }
 
 /* Reset and Base Styles */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
