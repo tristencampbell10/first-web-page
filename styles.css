@@ -13,7 +13,7 @@
     /* Color Palette */
     --color-primary: #3498db;
     --color-secondary: #2980b9;
-    --color-background: #e6f2ff; /* Light blue background */
+    --color-background: #DC143C; /* Crimson background */
     --color-text: #333333;
     --color-text-light: #ffffff;
     --color-border: #dddddd;
@@ -61,7 +61,7 @@ body {
     font-size: var(--font-size-base);
     line-height: 1.6;
     color: var(--color-text);
-    background-color: var(--color-background); /* Light blue background for all pages */
+    background-color: var(--color-background); /* Crimson background for all pages */
     margin: 0;
     padding: 0;
 }
