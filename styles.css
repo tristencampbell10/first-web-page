@@ -267,3 +267,29 @@ blockquote { max-width: 900px; margin: 39px 0 40px; font-family: var(--serif); f
   .site-footer { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
   .site-footer > p { grid-column: 1 / -1; }
 }
+
+/* Simple profile page */
+body {
+  margin: 0;
+  padding: 0;
+  color: #0dade3;
+  background: #DC143C;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin: 0 0 16px;
+  color: lightskyblue;
+  font-family: Georgia, serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0 0 16px;
+  color: yellow;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
